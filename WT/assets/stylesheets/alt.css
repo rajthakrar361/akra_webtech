@@ -1,0 +1,260 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+ strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body{
+  background-color: #d0e8f2;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  Reset Complete. Style sheet starts.
+*/
+
+.logo{
+  color: #456268;
+  background-color: #fff;
+  border-radius: 5px;
+  font-family: "Allerta Stencil";
+  padding: 2px;
+  font-size: 50px;
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+}
+
+.logo:hover{
+  font-weight: normal;
+}
+
+header{
+  background: #456268;
+  height: 100px;
+}
+
+nav{
+  font-family: "Montserrat", serif;
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav span{
+  float: right;
+  padding: 10px;
+}
+
+.CS{
+	margin-right: 30px;
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover{
+  font-weight: bold;
+  color: #b68973;
+}
+
+.goi{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/* Heading complete */
+
+figure img{
+	width: 80%;
+	margin: 20px;
+}
+
+/* Mid-Sections */
+.sub-one{
+	background: #d0e8f2;
+  display: block;
+  height: 460px;
+}
+
+.subone-inner{
+  background: #79a3b1;
+  padding-top: 40px;
+  margin: 40px;
+  height: 380px;
+  position: relative;
+  top: 40px;
+}
+
+.inj{
+  margin: 40px 40px;
+  width: 450px;
+  height: 300px;
+  float: left;
+}
+
+#who-are-we{
+	color: #456268;
+	font-size: 30px;
+	font-family: "Varela", serif;
+	font-weight: normal;
+  padding: 40px;
+}
+
+#who-are-we-describe{
+	font-family: "Varela", serif;
+	font-size: 20px;
+  text-align: justify;
+  margin-right: 30px;
+  color: #456268;
+}
+
+.sub-two{
+  background: #d0e8f2;
+  color: #456268;
+  font-family: "Varela", serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.text{
+  padding: 30px;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	font-family: "Varela", serif;
+	background: #456268;
+	color: #fff;
+	align-items: center;
+	font-size: 20px;
+}
+
+.twitter, .instagram, .linkedin{
+    color: white;
+    padding: 20px;
+}
+
+.twitter:hover, .instagram:hover, .linkedin:hover{
+  color: #b68973;
+}
+
+.email, a{
+  color: white;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 370px;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 0 5px 0;
+}
+
+.slideshow_dots{
+  padding: 0 0 10px 0;
+}
+
+.carousel{
+  background-color: #d0e8f2;
+}
+
+.car-inner{
+  background-color: #79a3b1;
+  margin: 40px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

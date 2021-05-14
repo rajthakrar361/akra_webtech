@@ -1,0 +1,40 @@
+.heading{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  padding: 1px 40px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+h2{
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.aboutus_content{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 25px;
+  padding: 40px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.hq, .prod2{
+  float: left;
+  margin-right: 40px;
+  height: 300px;
+}
+
+.prod{
+  width: 450px;
+  height: 300px;
+  float: right;
+  margin-left: 40px;
+}

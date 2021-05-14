@@ -1,0 +1,259 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+ strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  Reset Complete. Style sheet starts.
+*/
+
+.logo{
+  color: #52734d;
+  background-color: black;
+  font-family: "Allerta Stencil";
+  padding: 5px;
+  font-size: 50px;
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 3px;
+}
+
+.logo:hover{
+  font-weight: normal;
+}
+
+header{
+  background: #52734d;
+  color: #52734d;
+  height: 100px;
+}
+
+nav{
+  font-family: "Montserrat", serif;
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav span{
+  float: right;
+  padding: 10px;
+}
+
+.CS{
+	margin-right: 30px;
+}
+
+nav a{
+  color: #feffde;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover{
+  font-weight: bold;
+  color: #ddffbc;
+}
+
+.goi{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/* Heading complete */
+
+
+/* Mid-Sections */
+
+h2{
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.content{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 25px;
+  padding: 40px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.inj{
+  margin-right: 40px;
+  float: left;
+  height: 300px;
+  width: 450px;
+}
+
+.vaccine{
+  margin-left: 40px;
+  float: right;
+  height: 300px;
+  width: 450px;
+}
+
+.sub-two{
+  background: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.text{
+  padding: 30px;
+}
+
+footer{
+	text-align: center;
+  padding: 20px;
+	font-family: "Varela", serif;
+	background: #52734d;
+	color: #fff;
+	align-items: center;
+	font-size: 20px;
+}
+
+hr{
+  border-style: solid none none none;
+}
+
+.twitter, .instagram, .linkedin {
+    color: #fff;
+    padding: 25px 10px 5px 10px;
+    margin: 10px;
+}
+
+.email{
+  padding: 0 5px;
+}
+
+.twitter:hover, .instagram:hover, .linkedin:hover, .email:hover{
+  color: #52734d !important;
+  background-color: #fff !important;
+  border-radius: 5px;
+}
+
+footer a{
+  color: white !important;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+footer a:hover{
+  color: #ddffbc !important;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 370px;
+  position: relative;
+  margin: 0 auto;
+  padding: 30px 0 5px 0;
+}
+
+.slideshow_dots{
+  padding: 0 0 10px 0;
+}
+
+.carousel{
+  background-color: #fff;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

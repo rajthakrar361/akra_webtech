@@ -1,0 +1,111 @@
+.heading{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  padding: 1px 40px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#linkage{
+  margin: 40px;
+  padding: 1px 40px;
+  font-size: 20px;
+  text-align: justify;
+  background-color: #ddffbc;
+}
+
+h2{
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.placeOrderForm{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 20px;
+  padding: 40px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.fname, .lname, .age, .aadhar, .phone1, .phone2, .vac_date{
+  border: none;
+  width: 250px;
+  height: 50px;
+}
+
+#birth_date{
+  margin-left: 10px;
+  border: none;
+  width: 250px;
+  height: 50px;
+}
+
+.lname_l{
+   margin-left: 200px;
+}
+
+.phone2_l{
+   margin-left: 128px;
+}
+
+.lname, .phone2{
+  margin-left: 54px;
+}
+
+.address, .effects{
+  border: none;
+  width: 300px;
+  height: 100px;
+}
+
+.content{
+  margin: 40px;
+  background-color: #ddffbc;
+  color: #52734d;
+  font-family: "Varela", serif;
+  font-size: 25px;
+  padding: 40px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.td2{
+  padding-left: 60px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border: none;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 0px 3px #666666;
+  -moz-box-shadow: 0px 0px 3px #666666;
+  box-shadow: 0px 0px 3px #666666;
+  font-family: "Varela", serif;
+  color: #fff;
+  width: 250px;
+  height: 50px;
+  font-size: 27px;
+  background: #52734d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 0px 9px #666666;
+  -moz-box-shadow: 0px 0px 9px #666666;
+  box-shadow: 0px 0px 9px #666666;
+}
+
+.btn:active{
+  -webkit-box-shadow: 0px 0px 0px #666666;
+  -moz-box-shadow: 0px 0px 0px #666666;
+  box-shadow: 0px 0px 0px #666666;
+}
